@@ -16,8 +16,8 @@ class EmailAddressParser
   def parse
   @parse_email = @email_addresses.split(/,|\s|,\s/)
 
-  @parsed_eamil.delete("")
-  
+  @parsed_email.delete("")
+  @parsed_email
 
   end
 
